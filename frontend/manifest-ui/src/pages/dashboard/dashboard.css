@@ -1,0 +1,43 @@
+.dashboard-container {
+    padding: 20px;
+    width: 500px;
+    height: 500px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .layout {
+    background: #f8f9fa;
+    padding: 10px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr); /* 12-column grid */
+    gap: 10px;
+  }
+  
+  .grid-item {
+    background: #007bff;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid #0056b3;
+    height: 100%; /* Ensures the grid item takes the full height */
+    min-width: 80px; /* Prevents grid items from shrinking too much */
+  }
+  
